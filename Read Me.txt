@@ -1,0 +1,36 @@
+## Installation
+
+To use this project, you'll need to have the following packages installed:
+
+- **OpenCV**: A computer vision library.
+  
+  pip install opencv-python
+
+Ultralytics YOLO: A deep learning library for object detection.
+
+
+Copy code
+pip install ultralytics
+
+NumPy: A library for numerical operations in Python.
+
+Copy code
+pip install numpy
+
+Pillow (PIL Fork): A Python Imaging Library that adds image processing capabilities to your Python interpreter.
+
+Copy code
+pip install pillow
+Tesseract OCR: An OCR engine for recognizing text in images.
+
+Copy code
+pip install pytesseract
+
+
+you will find tesseract folder compressed in the project folder
+unpack it and make the directory of the folder like C:\Program Files\Tesseract-OCR
+after that we will need to set the path to this folder 
+right click on MY PC -> Advanced system settings -> Enviroment Variables -> select path -> Edit -> New -> 
+C:\Program Files\Tesseract-OCR
+
+Inshallah it will works after that <3 
